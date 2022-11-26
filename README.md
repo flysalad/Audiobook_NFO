@@ -52,15 +52,3 @@ User options available include:
 * ext - file extension for output ("m4a" or "mp3")
 * splitby - split by minutes OR chapters
 * split - split the audiobook OR generate a silence log
-
-===============================================================================
-
-Notepad++ tip: Find all non-ASCII characters
-
-1. Ctrl-F
-2. Search for: [^\x00-\x7F]+
-3. Select search mode as 'Regular expression'
-
-===============================================================================
-
-Last updated: 11 Oct 2022
