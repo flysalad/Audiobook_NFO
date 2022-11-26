@@ -1,0 +1,33 @@
+# PROGRAMS AND VARIABLES USED FOR M4B PROCESSING
+
+# Location of FFMPEG executable (download SHARED binaries)
+ffmpeg=C:\ffmpeg\ffmpeg.exe
+
+# Location of FFPROBE executable
+ffprobe=C:\ffmpeg\ffprobe.exe
+
+# Location of ExifTool executable (https://exiftool.org/)
+exiftool=C:\exiftool\exiftool.exe
+
+# Start up directory for file selection
+defaultdir=C:\audible\m4b
+
+# Split into files that are "minutes" long (e.g. 10 minutes long)
+minutes=10
+
+# silence threshold in dB (e.g. below -30dB is considered silence)
+db=-30
+
+# minimum silence length in seconds (e.g. 1.0 seconds)
+silencelength=1.0
+
+# file extension for output ("m4a" or "mp3")
+# m4a files are copied so have same quality as original
+# mp3 files are saved at VBR with quality 3 (~ 64kbps)
+ext=m4a
+
+# split by: "minutes" or "chapters"
+splitby=minutes
+
+# split audiobook (Y) or create silence detection log file (N)
+split=Y
