@@ -123,7 +123,7 @@ def createNfoFile(fn, fileVar):
 
     # write metadata to cue file
     nfo.write('AUDIOBOOK DETAILS\n=================\n')
-    nfo.write('Title:\n  ' + title + '\n')
+    nfo.write('Title:\n  ' + str(title) + '\n')
     nfo.write('Author:\n  ' + i['Artist'] + '\n')
     nfo.write('Narrator(s):\n  ' + narrator + '\n')
     nfo.write('Duration:\n  ' + i['Duration'] + '\n')
